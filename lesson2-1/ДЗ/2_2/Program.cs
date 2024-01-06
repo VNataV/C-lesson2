@@ -3,8 +3,8 @@ int y = int.Parse(Console.ReadLine()!);
 if(x==0 | y==0){Console.WriteLine("неверные данные");}
 else
 {
-    if(x>0 && y > 0){Console.WriteLine("1");}
-    if(x>0 && y < 0){Console.WriteLine("2");}
-    if(x<0 && y < 0){Console.WriteLine("3");}
-    if(x<0 && y > 0){Console.WriteLine("4");}
+    if(x>0 && y > 0){Console.WriteLine("I");}
+    if(x<0 && y > 0){Console.WriteLine("II");}
+    if(x<0 && y < 0){Console.WriteLine("III");}
+    if(x>0 && y < 0){Console.WriteLine("IV");}
 }

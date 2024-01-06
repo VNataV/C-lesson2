@@ -1,10 +1,13 @@
 ﻿int a = int.Parse(Console.ReadLine()!);
-int b;
+string b = "";
+
+b = a % 10 + b;
+    a /= 10;
 
 while (a > 0)
 {
-    b = a % 10; 
-    a = a - b;
+    b = a % 10 + "," + b;
+    a /= 10;
 }
-Console.WriteLine(a);
 
+Console.WriteLine(b);  
